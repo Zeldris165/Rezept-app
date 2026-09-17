@@ -1,0 +1,17 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="100" fill="#F1EDE4"/>
+
+  <!-- Teller -->
+  <ellipse cx="90" cy="128" rx="55" ry="16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="90" cy="124" rx="55" ry="13" fill="#F1EDE4" stroke="#1A1A1A" stroke-width="4"/>
+
+  <!-- Fragezeichen auf dem Teller -->
+  <text x="90" y="122" font-family="Arial, sans-serif" font-size="34" font-weight="700"
+        text-anchor="middle" fill="#B0AFA8">?</text>
+
+  <!-- Lupe -->
+  <circle cx="138" cy="82" r="26" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="7"/>
+  <circle cx="138" cy="82" r="26" fill="#5FA8B8" opacity="0.15"/>
+  <path d="M 157 101 L 175 119" stroke="#1A1A1A" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="130" cy="74" rx="7" ry="4" fill="#FFFFFF" opacity="0.6" transform="rotate(-25 130 74)"/>
+</svg>

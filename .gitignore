@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Lokale SQLite-Datenbank (enthält echte Nutzerdaten/Passwort-Hashes,
+# außerdem ist der Speicher auf Streamlit Cloud eh nicht dauerhaft)
+data/*.db
+
+# Streamlit-Secrets (falls später API-Keys o.ä. dazukommen)
+.streamlit/secrets.toml
+
+# Editor/OS
+.vscode/
+.DS_Store
+
+# Versehentlich verschachtelter leerer Ordner aus GitHub-Desktop-Setup
+/Rezept app/
